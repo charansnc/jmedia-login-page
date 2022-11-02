@@ -85,3 +85,65 @@ footer{
    background-color:rgb(207, 205, 205);
     text-align: center;
 }
+
+
+@media screen and ( max-width:1000px ){
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+         width: 100%;
+      }
+      #login{
+        font-weight: 600;
+        font-size: 1.2rem;
+        background-color: rgb(181, 212, 239);
+        margin-left: auto;
+        margin-right: auto;
+         width: 85%; 
+        padding:10px 20px;
+        text-align: center;
+        border-radius: 5px 5px 0px 0px;
+       
+    }
+    
+#login-card{
+    display: block;
+    padding: 15px 20px 15px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 40px;
+}
+#login-des p{
+    text-align: none;
+    display: block;
+    padding: 15px 20px 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    background-color: aliceblue;
+}
+.user input{
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+}
+.btn input{
+  width: 50%;
+  margin: 5px;
+  padding:8px ;
+  border-radius: 5px;
+  background-color: rgb(54, 54, 159);
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+}
